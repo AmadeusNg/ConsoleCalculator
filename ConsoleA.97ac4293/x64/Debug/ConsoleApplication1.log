@@ -3,5 +3,5 @@
   ConsoleApplication1.cpp
   Operations.h
   Generating Code...
-D:\OneDrive\Desktop\Personal Proj\ConsoleApplication1\ConsoleCalculator\Calculator.h(32,1): warning C4715: 'Calculator::processInput': not all control paths return a value
+D:\OneDrive\Desktop\Personal Proj\ConsoleApplication1\ConsoleCalculator\Calculator.h(51,1): warning C4715: 'Calculator::processInput': not all control paths return a value
   ConsoleApplication1.vcxproj -> D:\OneDrive\Desktop\Personal Proj\ConsoleApplication1\ConsoleCalculator\x64\Debug\ConsoleApplication1.exe

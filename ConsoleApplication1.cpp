@@ -4,20 +4,48 @@
 #include <iostream>
 #include "CalcTests.h"
 
+
+bool isValidInput(std::string input) {
+    bool hasNumber = false;
+    for (char c : input) {
+        if (std::isdigit(c)) {
+            hasNumber = true;  // At least one number should be present
+        }
+        else if (!std::isspace(c) && c != '+' && c != '-' && c != '*' &&
+            c != '/' && c != '%' && c != '^' && c != '~') {
+            return false; // Invalid character found
+        }
+    }
+	return hasNumber;
+}
 int main()
 {   
     std::string input;
     std::cout << "Welcome to the Calculator! Type 'test' to run tests or enter an expression:\n";
 
-    std::getline(std::cin, input);
+    while (true) {
+        std::getline(std::cin, input);
 
-    if (input == "test") {
-        runTestCases();
-		return 0;
-	}
-    else {
         Calculator calc;
-        calc.run();
+        if (input == "test") {
+            runTestCases();
+            std::cout << "Enter an expression (or 'exit' to quit): \n";
+            continue;
+	    }
+        if (input == "history") {
+            calc.printhistory();
+            std::cout << "Enter an expression (or 'exit' to quit): \n";
+            continue;
+        }
+
+        if (!isValidInput(input)) {
+            std::cout << "Invalid input! Only numbers and operators (+, -, *, /, %, ^, ~) are allowed.\n";
+            std::cout << "Please try again.\n";
+            continue;
+        }
+
+        calc.run(input);
+        break;
     }
     return 0;
 }

@@ -1,12 +1,94 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|solutionrelative:Calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\CalcTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|solutionrelative:CalcTests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Operations.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97AC4293-AAAC-4DA8-9EA5-05A85F2BF9FD}|ConsoleApplication1.vcxproj|solutionrelative:Operations.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalcTests.h",
+              "DocumentMoniker": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\CalcTests.h",
+              "RelativeDocumentMoniker": "CalcTests.h",
+              "ToolTip": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\CalcTests.h",
+              "RelativeToolTip": "CalcTests.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwCMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T13:34:19.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApplication1.cpp",
+              "DocumentMoniker": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\ConsoleApplication1.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1.cpp",
+              "ToolTip": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\ConsoleApplication1.cpp",
+              "RelativeToolTip": "ConsoleApplication1.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T13:34:18.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Operations.h",
+              "DocumentMoniker": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Operations.h",
+              "RelativeDocumentMoniker": "Operations.h",
+              "ToolTip": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Operations.h",
+              "RelativeToolTip": "Operations.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T13:34:17.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.h",
+              "DocumentMoniker": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Calculator.h",
+              "RelativeDocumentMoniker": "Calculator.h",
+              "ToolTip": "D:\\OneDrive\\Desktop\\Personal Proj\\ConsoleApplication1\\ConsoleCalculator\\Calculator.h",
+              "RelativeToolTip": "Calculator.h",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T13:34:19.135Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
